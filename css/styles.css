@@ -8,11 +8,11 @@
 }
 h1{
     color: white;
-    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
     
 }
 h2{
     color: white;
-    font-family: 'Noto Sans', sans-serif;
     font-size: small;
+    text-align: center;
 }

@@ -62,5 +62,10 @@ h6{
 }
 #head{
     font-weight: bold;
+}
+.contact{
     background-image: url(../images/assets/backgrounds/c_image.jpg);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: medium;
 }

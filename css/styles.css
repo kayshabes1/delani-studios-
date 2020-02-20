@@ -10,13 +10,32 @@ h1{
     color: white;
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    font-size: medium;
 }
 h2{
     color: white;
-    font-size: small;
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    font-size: medium;
 }
 .mouseclick{
     padding: 18%;
+}
+.aboutus{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: medium;
+}
+.services{
+    padding: 5%;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    background-image: url(../images/assets/backgrounds/s_image.jpg);
+    font-size: medium;
+}
+.wwd{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: medium;
 }

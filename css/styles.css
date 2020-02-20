@@ -10,13 +10,12 @@ h1{
     color: white;
     text-align: center;
     font-family: 'Rubik', sans-serif;
-    font-size: medium;
 }
 h2{
     color: white;
     text-align: center;
     font-family: 'Rubik', sans-serif;
-    font-size: medium;
+    font-size: small;
 }
 .mouseclick{
     padding: 18%;
@@ -38,4 +37,30 @@ h2{
     text-align: center;
     font-family: 'Rubik', sans-serif;
     font-size: medium;
+}
+.portfolio{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: medium;
+}
+h3{
+    font-size: medium;
+}
+h4{
+    font-size: medium;
+}
+h5{
+    font-size: medium;
+}
+h6{
+    font-size: medium;
+}
+.contact{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: medium;
+}
+#head{
+    font-weight: bold;
+    background-image: url(../images/assets/backgrounds/c_image.jpg);
 }

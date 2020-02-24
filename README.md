@@ -7,9 +7,9 @@ A website used by web developers to help others create their own webpage.
 
 
 ## Known Bugs
-My device does not allow me to group the columns correctly hence them being in a downward motion.
+
 ## Technologies Used
-Used anaother version of bootstrap and used java script as well.
+Used another version of bootstrap and used java script as well.
 ## Support and contact details
 Contact me: kayshabesi@gmail.com
 ### License

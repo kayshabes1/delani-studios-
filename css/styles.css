@@ -1,21 +1,32 @@
-#homepage{
-    padding: 20%;
-    background-image: url('../images/assets/backgrounds/h_img.jpg');
-    padding: 50px;
-    background-size: 100%;
-    height:500px;
-    text-align: center;
+#development,
+#pmanagent,
+#design-p {
+    display: none;
 }
-h1{
+body{
+    font-family: 'Raleway', ;
+}
+.welcome {
+    padding: 50px;
+    background-color: black;
+    background-image: url("../images/assets/backgrounds/h_img.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.welcome-text {
+    padding-top: 14%;
     color: white;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+}
+.text-pad {
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 h2{
-    color: white;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: small;
+    font-size: 15px;
+}
+.mouse-icon {
+    padding-top: 8%;
 }
 #mouseclick{
     animation-direction: alternate;
@@ -27,134 +38,128 @@ h2{
     animation-fill-mode: both;
 }
 @keyframes mymove {
-    from { left: 0px; right: 0px;
-        to {left: 200px;}
-    }
+from {left: 0px; right:0px;}
+to {left: 200px;}
 }
-img#mouseclick{
+img#mouse_click{
     padding-top: 22px;
     margin-top: 10%;
     padding-bottom: 30px;
 }
-img{
+img {
     vertical-align: middle;
     border-style: none;
 }
+.abt{
+    padding: 30px;
+    background-color: white;
+    color: black;
 }
-.aboutus{
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: medium;
+.abt-text {
+    font-size: 14px;
 }
-.services{
-    padding: 5%;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
+.services {
+    padding: 85px;
+    background-image: url("../images/assets/backgrounds/s_image.jpg");
+    background-repeat: no-repeat;
+}
+.services-text {
     color: white;
-    background-image: url(../images/assets/backgrounds/s_image.jpg);
-    font-size: medium;
+    font-size: 14px;
 }
-.wwd{
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: medium;
+.aboutus {
+    padding: 50px;
 }
-.portfolio{
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: medium;
+.h3 {
+    padding-top: 10px;
 }
-
-h3{
-    font-size: medium;
-}
-h4{
-    font-size: medium;
-}
-h5{
-    font-size: medium;
-}
-h6{
-    font-size: medium;
-    font-weight: bold;
-}
-#head{
-    font-weight: bold;
-}
-.contact{
-    background-image: url(../images/assets/backgrounds/c_image.jpg);
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: medium;
-}
-.table{
+.table {
     padding-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
-.footer{
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: small;
-}
-.footer-images{
-    text-align: center;
-    padding: 2%;
-}
-.form-group{
-    padding: 1%;
-    background-color: transparent;
-}
-#head1{
-    padding: 1%;
-    color: white;
-    font-weight: bold;
+.portfolio {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    padding-bottom: 40px;
 }
 
-input[type=text] {
+.contact {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-image: url("../images/assets/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+}
+.text-contact {
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+}
+.myForm-input {
+    font-size: 12px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+.contact-us {
+    background: transparent;
+    padding-top: 20px;
+}
+.contact-us input{
     border: 2px solid white;
     border-radius: 1px;
     width: 25%;
     padding-right: 2%;
     background-color: transparent;
-    
 }
-textarea {
+.contact-us textarea{
     width: 55%;
     height: 150px;
-    padding: 12px 25px;
+    padding: 20px 25px;
     box-sizing: border-box;
     border: 2px solid white;
     border-radius: 1px;
     resize: none;
     background-color: transparent;
-    
 }
-input[type=button] {
-    background-color: grey;
-    border: 1px solid white;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
+.contact-email {
+    margin-left: 200px;
 }
-::placeholder{
-    color: white;
+div.contact-btn button {
+        background-color: grey;
+        border: 1px solid white;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
 }
-/* .design{
-    float: left;
 
+div.footer-imgs {
+    margin-bottom: 10px;
 }
-.development{
-    float: right;
+div.footer-imgs img {
+    margin: 7px 5px;
 }
-#design2{
-    display: none;
+div.footer p {
+    font-size: 0.7rem;
 }
-#development2{
-    display: none;
+.footer-content {
+    padding-top: 25px;
 }
-#product2{
-    display: none;
-} */
+
+::placeholder {
+    color:white;
+    font-size: 15px;
+}
+
+
+
+
+
+

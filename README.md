@@ -1,5 +1,5 @@
 # Delani Studio
-#### WEb appp development, 23/02/2020
+#### WEb app development, 23/02/2020
 #### By Kaysha Besi
 ## Description
 A website used by web developers to help others create their own webpage.
